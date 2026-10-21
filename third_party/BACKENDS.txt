@@ -1,0 +1,4 @@
+UxPlay: GPL-3.0-or-later, source tree in UxPlay.
+Scrcpy 5.0.1: Apache-2.0; exact source archive included. Android platform-tools and bundled FFmpeg/SDL have their own licenses.
+GStreamer / libplist / FFmpeg / supporting DLLs: see runtime-licenses and msys2-packages.json.
+msys2-sources contains the exact source packages (upstream archives, build recipes and patches) for the distributed MSYS2 runtime libraries; runtime-source-map.json identifies ownership.

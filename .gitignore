@@ -1,0 +1,26 @@
+# Build outputs and local settings
+OpenMirror.exe
+OpenMirror-*.exe
+OpenMirror-*.exe.config
+.build/
+bin/
+preview/
+.vs/
+*.pdb
+*.user
+*.mp4
+*.log
+__pycache__/
+
+# Corresponding dependency archives are attached to the release
+*.tar.gz
+*.tar.xz
+*.zst
+*.zip
+*.nupkg
+
+# Signing and receiver identities must remain local
+*.pfx
+*.p12
+*.key
+*.dpapi

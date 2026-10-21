@@ -1,0 +1,5600 @@
+{
+  "mingw-w64-x86_64-libplist": {
+    "files": [
+      "mingw64/bin/libplist-2.0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libplist-2.7.0-4-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libplist"
+      ],
+      "BASE": [
+        "mingw-w64-libplist"
+      ],
+      "VERSION": [
+        "2.7.0-4"
+      ],
+      "DESC": [
+        "A library to handle Apple Property List format in binary or XML (mingw-w64)"
+      ],
+      "CSIZE": [
+        "247717"
+      ],
+      "ISIZE": [
+        "1164325"
+      ],
+      "SHA256SUM": [
+        "c3b19655c25506ce3afaa091ca31f3d7c2e115055d516c96666ad7cd701662f1"
+      ],
+      "URL": [
+        "https://www.libimobiledevice.org/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later AND spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1769432107"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/805742ae/21354520508)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-python: Python bindings"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cython"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libgcc": {
+    "files": [
+      "mingw64/bin/libgcc_s_seh-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libgcc-16.2.0-6-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libgcc"
+      ],
+      "BASE": [
+        "mingw-w64-gcc"
+      ],
+      "VERSION": [
+        "16.2.0-6"
+      ],
+      "DESC": [
+        "Low-level runtime library shipped by GCC (mingw-w64)"
+      ],
+      "CSIZE": [
+        "77153"
+      ],
+      "ISIZE": [
+        "187835"
+      ],
+      "SHA256SUM": [
+        "e0815432c4225892b0eef57055fe507fa0b9a036436f046605f6629696bd1b88"
+      ],
+      "URL": [
+        "https://gcc.gnu.org"
+      ],
+      "LICENSE": [
+        "spdx:GPL-3.0-or-later WITH GCC-exception-3.1 AND GFDL-1.3-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791881873"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38372743753/job/115213507115)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-gcc-libs<16.2.0-4"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-gcc",
+        "mingw-w64-x86_64-gcc-ada",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-binutils",
+        "mingw-w64-x86_64-crt",
+        "mingw-w64-x86_64-headers",
+        "mingw-w64-x86_64-gmp",
+        "mingw-w64-x86_64-isl",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-mpc",
+        "mingw-w64-x86_64-mpfr",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-texinfo",
+        "mingw-w64-x86_64-windows-default-manifest",
+        "mingw-w64-x86_64-winpthreads",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zstd"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libwinpthread": {
+    "files": [
+      "mingw64/bin/libwinpthread-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libwinpthread-14.0.0.r495.g63ebe6cdb-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "BASE": [
+        "mingw-w64-winpthreads"
+      ],
+      "VERSION": [
+        "14.0.0.r495.g63ebe6cdb-2"
+      ],
+      "DESC": [
+        "MinGW-w64 winpthreads library (mingw-w64)"
+      ],
+      "GROUPS": [
+        "mingw-w64-x86_64-toolchain"
+      ],
+      "CSIZE": [
+        "32972"
+      ],
+      "ISIZE": [
+        "71837"
+      ],
+      "SHA256SUM": [
+        "e657ade501916ef2f0ff8b5f5d93dc65d39f1a0ec66cfee8206026b240f60518"
+      ],
+      "URL": [
+        "https://www.mingw-w64.org/"
+      ],
+      "LICENSE": [
+        "spdx:MIT AND BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792477829"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/39380623831/job/118488683033)"
+      ],
+      "REPLACES": [
+        "mingw-w64-x86_64-libwinpthread-git"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-libwinpthread-git"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-libwinpthread-git"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-crt",
+        "mingw-w64-x86_64-headers",
+        "git"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libstdc++": {
+    "files": [
+      "mingw64/bin/libstdc++-6.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libstdc++-16.2.0-6-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libstdc++"
+      ],
+      "BASE": [
+        "mingw-w64-gcc"
+      ],
+      "VERSION": [
+        "16.2.0-6"
+      ],
+      "DESC": [
+        "C++ runtime libraries shipped by GCC (mingw-w64)"
+      ],
+      "GROUPS": [
+        "mingw-w64-x86_64-toolchain"
+      ],
+      "CSIZE": [
+        "797366"
+      ],
+      "ISIZE": [
+        "2697687"
+      ],
+      "SHA256SUM": [
+        "924b47e8c3e20b6448e29d3333acc638a4f4783c1c45230e09673532f9c4f198"
+      ],
+      "URL": [
+        "https://gcc.gnu.org"
+      ],
+      "LICENSE": [
+        "spdx:GPL-3.0-or-later WITH GCC-exception-3.1 AND GFDL-1.3-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791881873"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38372743753/job/115213507115)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-gcc-libs<16.2.0-4"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libgcc=16.2.0-6",
+        "mingw-w64-x86_64-libwinpthread",
+        "mingw-w64-x86_64-tzdata"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-gcc",
+        "mingw-w64-x86_64-gcc-ada",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-binutils",
+        "mingw-w64-x86_64-crt",
+        "mingw-w64-x86_64-headers",
+        "mingw-w64-x86_64-gmp",
+        "mingw-w64-x86_64-isl",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-mpc",
+        "mingw-w64-x86_64-mpfr",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-texinfo",
+        "mingw-w64-x86_64-windows-default-manifest",
+        "mingw-w64-x86_64-winpthreads",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zstd"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-openssl": {
+    "files": [
+      "mingw64/bin/libcrypto-3-x64.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-openssl-3.6.5-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-openssl"
+      ],
+      "BASE": [
+        "mingw-w64-openssl"
+      ],
+      "VERSION": [
+        "3.6.5-1"
+      ],
+      "DESC": [
+        "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security (mingw-w64)"
+      ],
+      "CSIZE": [
+        "8301542"
+      ],
+      "ISIZE": [
+        "61993252"
+      ],
+      "SHA256SUM": [
+        "389d1af21e99223d9e2cd32d4c073131b276da85be7636bd8d23571f6938864f"
+      ],
+      "URL": [
+        "https://openssl-library.org"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790711162"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/36621355220/job/109587273393)"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-ca-certificates"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gstreamer": {
+    "files": [
+      "mingw64/bin/gst-inspect-1.0.exe",
+      "mingw64/bin/gst-launch-1.0.exe",
+      "mingw64/bin/libgstbase-1.0-0.dll",
+      "mingw64/bin/libgstnet-1.0-0.dll",
+      "mingw64/bin/libgstreamer-1.0-0.dll",
+      "mingw64/lib/gstreamer-1.0/libgstcoreelements.dll",
+      "mingw64/libexec/gstreamer-1.0/gst-plugin-scanner.exe"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gstreamer-1.28.8-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gstreamer"
+      ],
+      "BASE": [
+        "mingw-w64-gstreamer"
+      ],
+      "VERSION": [
+        "1.28.8-1"
+      ],
+      "DESC": [
+        "GStreamer Multimedia Framework (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2441420"
+      ],
+      "ISIZE": [
+        "15063780"
+      ],
+      "SHA256SUM": [
+        "99554635d9652c7be416e373a186897d3999bad3f193e4377bddd21d81d000f6"
+      ],
+      "URL": [
+        "https://gstreamer.freedesktop.org/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791606121"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38023717243/job/114129995401)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-gst-plugins-bad<1.14.0"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-gtk-doc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-rust"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gettext-runtime": {
+    "files": [
+      "mingw64/bin/libintl-8.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gettext-runtime-1.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gettext-runtime"
+      ],
+      "BASE": [
+        "mingw-w64-gettext"
+      ],
+      "VERSION": [
+        "1.0-1"
+      ],
+      "DESC": [
+        "GNU internationalization runtime library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "427276"
+      ],
+      "ISIZE": [
+        "2823016"
+      ],
+      "SHA256SUM": [
+        "be68d7f260633284b910c588c6d82ee304a81c8817a686d2cd9df83f872c27af"
+      ],
+      "URL": [
+        "https://www.gnu.org/software/gettext/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-3.0-or-later AND LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1769861809"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/59a03c95/21544284235)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-gettext<=0.22.4-3"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-libiconv"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-ncurses",
+        "mingw-w64-x86_64-libiconv",
+        "groff"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libiconv": {
+    "files": [
+      "mingw64/bin/libiconv-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libiconv-1.19-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libiconv"
+      ],
+      "BASE": [
+        "mingw-w64-libiconv"
+      ],
+      "VERSION": [
+        "1.19-1"
+      ],
+      "DESC": [
+        "Character encoding conversion library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "745957"
+      ],
+      "ISIZE": [
+        "2558477"
+      ],
+      "SHA256SUM": [
+        "21e334d0911f25de75d3e18e0697648bcecfa9658256d600cad0827d719c2f35"
+      ],
+      "URL": [
+        "https://www.gnu.org/software/libiconv/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later",
+        "documentation:spdx:GPL-3.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1773477932"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/5e407709/23084514348)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-gperf"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-glib2": {
+    "files": [
+      "mingw64/bin/libgio-2.0-0.dll",
+      "mingw64/bin/libglib-2.0-0.dll",
+      "mingw64/bin/libgmodule-2.0-0.dll",
+      "mingw64/bin/libgobject-2.0-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-glib2-2.90.1-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-glib2"
+      ],
+      "BASE": [
+        "mingw-w64-glib2"
+      ],
+      "VERSION": [
+        "2.90.1-1"
+      ],
+      "DESC": [
+        "Common C routines used by GTK+ 3 and other libs (mingw-w64)"
+      ],
+      "CSIZE": [
+        "5471610"
+      ],
+      "ISIZE": [
+        "42155364"
+      ],
+      "SHA256SUM": [
+        "152ba3b2cfb35feebc0fcb690889b16a6f0c2b89ced52e65aea45d089f86d219"
+      ],
+      "URL": [
+        "https://gitlab.gnome.org/GNOME/glib"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791402340"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/37676716326/job/112982006656)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-libffi",
+        "mingw-w64-x86_64-pcre2",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-python-packaging",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-python-setuptools",
+        "mingw-w64-x86_64-python-docutils"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libffi": {
+    "files": [
+      "mingw64/bin/libffi-8.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libffi-3.8.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libffi"
+      ],
+      "BASE": [
+        "mingw-w64-libffi"
+      ],
+      "VERSION": [
+        "3.8.0-1"
+      ],
+      "DESC": [
+        "A portable, high level programming interface to various calling conventions (mingw-w64)"
+      ],
+      "CSIZE": [
+        "51683"
+      ],
+      "ISIZE": [
+        "166253"
+      ],
+      "SHA256SUM": [
+        "6dad7f3c6c900d3c64a4fe0c2764b405e678b22df3521d2284ffaeff0198b84b"
+      ],
+      "URL": [
+        "https://sourceware.org/libffi"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786475416"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31526379481/job/93895626042)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-pcre2": {
+    "files": [
+      "mingw64/bin/libpcre2-8-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-pcre2-10.49-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-pcre2"
+      ],
+      "BASE": [
+        "mingw-w64-pcre2"
+      ],
+      "VERSION": [
+        "10.49-1"
+      ],
+      "DESC": [
+        "A library that implements Perl 5-style regular expressions (mingw-w64)"
+      ],
+      "CSIZE": [
+        "1446280"
+      ],
+      "ISIZE": [
+        "7458221"
+      ],
+      "SHA256SUM": [
+        "0abc5313085a0f9b4a77a1580d92b09761371cb3a1f31d01051a94a289fb9413"
+      ],
+      "URL": [
+        "https://pcre.org/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790689055"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/36575950950/job/109431498245)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-bzip2",
+        "mingw-w64-x86_64-wineditline",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-bzip2": {
+    "files": [
+      "mingw64/bin/libbz2-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-bzip2-1.0.8-4-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-bzip2"
+      ],
+      "BASE": [
+        "mingw-w64-bzip2"
+      ],
+      "VERSION": [
+        "1.0.8-4"
+      ],
+      "DESC": [
+        "A high-quality data compression program (mingw-w64)"
+      ],
+      "CSIZE": [
+        "95428"
+      ],
+      "ISIZE": [
+        "513149"
+      ],
+      "SHA256SUM": [
+        "123768f30ae14ba654a6feb70f8526146a331bc85f831a91a549ffb3f6cbffc7"
+      ],
+      "URL": [
+        "https://sourceware.org/bzip2/"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786713523"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31803563300/job/94776980328)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-zlib": {
+    "files": [
+      "mingw64/bin/zlib1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-zlib-1.3.2-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-zlib"
+      ],
+      "BASE": [
+        "mingw-w64-zlib"
+      ],
+      "VERSION": [
+        "1.3.2-2"
+      ],
+      "DESC": [
+        "Compression library implementing the deflate compression method found in gzip and PKZIP (mingw-w64)"
+      ],
+      "CSIZE": [
+        "112476"
+      ],
+      "ISIZE": [
+        "439244"
+      ],
+      "SHA256SUM": [
+        "9e75842a070ba648e986e12424e1c92c9d7d77200e85f6a34eeb600819f2e694"
+      ],
+      "URL": [
+        "https://www.zlib.net/"
+      ],
+      "LICENSE": [
+        "spdx:Zlib"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1772701644"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/ad23bc5d/22710411548)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-bzip2"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-expat": {
+    "files": [
+      "mingw64/bin/libexpat-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-expat-2.9.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-expat"
+      ],
+      "BASE": [
+        "mingw-w64-expat"
+      ],
+      "VERSION": [
+        "2.9.0-1"
+      ],
+      "DESC": [
+        "An XML parser library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "198437"
+      ],
+      "ISIZE": [
+        "859582"
+      ],
+      "SHA256SUM": [
+        "d81be70f6e22b988f00564bb16a2769347a6321964c99042d8ed8a7ed72b4829"
+      ],
+      "URL": [
+        "https://libexpat.github.io/"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791273304"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/37432495244/job/112166395358)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-xz": {
+    "files": [
+      "mingw64/bin/liblzma-5.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-xz-5.8.4-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-xz"
+      ],
+      "BASE": [
+        "mingw-w64-xz"
+      ],
+      "VERSION": [
+        "5.8.4-1"
+      ],
+      "DESC": [
+        "Library and command line tools for XZ and LZMA compressed files (mingw-w64)"
+      ],
+      "CSIZE": [
+        "433655"
+      ],
+      "ISIZE": [
+        "2947475"
+      ],
+      "SHA256SUM": [
+        "2de0f26da60b7ff7aa192a226330d7de6b1099cb9b9f9de4145affb80146bbc8"
+      ],
+      "URL": [
+        "https://tukaani.org/xz"
+      ],
+      "LICENSE": [
+        "spdx:0BSD AND LGPL-2.1-or-later AND GPL-2.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1788979148"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/34389532584/job/102594147019)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gettext-runtime"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-doxygen",
+        "po4a"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gst-plugins-base": {
+    "files": [
+      "mingw64/bin/libgstapp-1.0-0.dll",
+      "mingw64/bin/libgstaudio-1.0-0.dll",
+      "mingw64/bin/libgstpbutils-1.0-0.dll",
+      "mingw64/bin/libgstriff-1.0-0.dll",
+      "mingw64/bin/libgstrtp-1.0-0.dll",
+      "mingw64/bin/libgsttag-1.0-0.dll",
+      "mingw64/bin/libgstvideo-1.0-0.dll",
+      "mingw64/lib/gstreamer-1.0/libgstapp.dll",
+      "mingw64/lib/gstreamer-1.0/libgstopus.dll",
+      "mingw64/lib/gstreamer-1.0/libgstaudioconvert.dll",
+      "mingw64/lib/gstreamer-1.0/libgstaudioresample.dll",
+      "mingw64/lib/gstreamer-1.0/libgstplayback.dll",
+      "mingw64/lib/gstreamer-1.0/libgsttcp.dll",
+      "mingw64/lib/gstreamer-1.0/libgsttypefindfunctions.dll",
+      "mingw64/lib/gstreamer-1.0/libgstvideoconvertscale.dll",
+      "mingw64/lib/gstreamer-1.0/libgstvolume.dll",
+      "mingw64/lib/gstreamer-1.0/libgstimagefreeze.dll",
+      "mingw64/lib/gstreamer-1.0/libgstpango.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gst-plugins-base-1.28.8-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gst-plugins-base"
+      ],
+      "BASE": [
+        "mingw-w64-gst-plugins-base"
+      ],
+      "VERSION": [
+        "1.28.8-1"
+      ],
+      "DESC": [
+        "GStreamer Multimedia Framework Base Plugins (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2667818"
+      ],
+      "ISIZE": [
+        "15789156"
+      ],
+      "SHA256SUM": [
+        "9996cb589345158c5f75707da2ba88b7827c3f365d606d4a2fd83c0052ba381e"
+      ],
+      "URL": [
+        "https://gstreamer.freedesktop.org/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791606331"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38023717243/job/114129995401)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-gst-plugins-bad<1.16.0"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-graphene",
+        "mingw-w64-x86_64-gstreamer",
+        "mingw-w64-x86_64-libogg",
+        "mingw-w64-x86_64-libtheora",
+        "mingw-w64-x86_64-libvorbis",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libjpeg",
+        "mingw-w64-x86_64-opus",
+        "mingw-w64-x86_64-orc",
+        "mingw-w64-x86_64-pango",
+        "mingw-w64-x86_64-iso-codes",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-gtk-doc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libogg": {
+    "files": [
+      "mingw64/bin/libogg-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libogg-1.3.6-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libogg"
+      ],
+      "BASE": [
+        "mingw-w64-libogg"
+      ],
+      "VERSION": [
+        "1.3.6-1"
+      ],
+      "DESC": [
+        "Ogg bitstream and framing library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "216232"
+      ],
+      "ISIZE": [
+        "558686"
+      ],
+      "SHA256SUM": [
+        "7ef9ec16403e1489a37c3a5ce58b083408ba694c6882e673639e2250df98bb8b"
+      ],
+      "URL": [
+        "https://xiph.org/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1752563898"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/70dec0bd/16286682773)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libtheora": {
+    "files": [
+      "mingw64/bin/libtheoradec-2.dll",
+      "mingw64/bin/libtheoraenc-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libtheora-1.2.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libtheora"
+      ],
+      "BASE": [
+        "mingw-w64-libtheora"
+      ],
+      "VERSION": [
+        "1.2.0-1"
+      ],
+      "DESC": [
+        "An open video codec developed by the Xiph.org (mingw-w64)"
+      ],
+      "CSIZE": [
+        "433927"
+      ],
+      "ISIZE": [
+        "3485158"
+      ],
+      "SHA256SUM": [
+        "97a75f86edaf4b201fa3e82f9d68e303c19fa1911cc90fbcee138999349c1f39"
+      ],
+      "URL": [
+        "https://www.theora.org"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1746277477"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/663b7acd/14811110163)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libogg",
+        "mingw-w64-x86_64-libvorbis"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-doxygen",
+        "mingw-w64-x86_64-SDL",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libpng": {
+    "files": [
+      "mingw64/bin/libpng16-16.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libpng-1.6.59-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libpng"
+      ],
+      "BASE": [
+        "mingw-w64-libpng"
+      ],
+      "VERSION": [
+        "1.6.59-1"
+      ],
+      "DESC": [
+        "A collection of routines used to create PNG format graphics (mingw-w64)"
+      ],
+      "CSIZE": [
+        "405327"
+      ],
+      "ISIZE": [
+        "2629408"
+      ],
+      "SHA256SUM": [
+        "e1830319ea6c601c1e4d146b8e78264bcbb6326f0935b82c14a9b282af2127e1"
+      ],
+      "URL": [
+        "http://www.libpng.org/pub/png/libpng.html"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790688927"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/36575950950/job/109431498245)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libvorbis": {
+    "files": [
+      "mingw64/bin/libvorbis-0.dll",
+      "mingw64/bin/libvorbisenc-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libvorbis-1.3.7-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libvorbis"
+      ],
+      "BASE": [
+        "mingw-w64-libvorbis"
+      ],
+      "VERSION": [
+        "1.3.7-3"
+      ],
+      "DESC": [
+        "Vorbis codec library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "370778"
+      ],
+      "ISIZE": [
+        "2435148"
+      ],
+      "SHA256SUM": [
+        "3d68dc3ccb32f0ea230a4bbc19c8fd440893058437c49864c4e26b12d6cb078a"
+      ],
+      "URL": [
+        "https://xiph.org/"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786713767"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31803563300/job/94776980328)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libogg"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libjpeg-turbo": {
+    "files": [
+      "mingw64/bin/libjpeg-8.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libjpeg-turbo-3.2.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libjpeg-turbo"
+      ],
+      "BASE": [
+        "mingw-w64-libjpeg-turbo"
+      ],
+      "VERSION": [
+        "3.2.0-1"
+      ],
+      "DESC": [
+        "JPEG image codec with accelerated baseline compression and decompression (mingw-w64)"
+      ],
+      "CSIZE": [
+        "792181"
+      ],
+      "ISIZE": [
+        "7120429"
+      ],
+      "SHA256SUM": [
+        "ef3f55cf5238a8045c8f37796d730e4a5ee619d29ca9254aaa62456e5b5b7e51"
+      ],
+      "URL": [
+        "https://libjpeg-turbo.virtualgl.org/"
+      ],
+      "LICENSE": [
+        "custom:BSD-like"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1782907160"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28514970812/job/84524349260)"
+      ],
+      "REPLACES": [
+        "mingw-w64-x86_64-libjpeg"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-libjpeg"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-libjpeg"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-opus": {
+    "files": [
+      "mingw64/bin/libopus-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-opus-1.6.1-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-opus"
+      ],
+      "BASE": [
+        "mingw-w64-opus"
+      ],
+      "VERSION": [
+        "1.6.1-2"
+      ],
+      "DESC": [
+        "Codec designed for interactive speech and audio transmission over the Internet (mingw-w64)"
+      ],
+      "CSIZE": [
+        "348615"
+      ],
+      "ISIZE": [
+        "1505585"
+      ],
+      "SHA256SUM": [
+        "fae981c518ed1ff2c5264eb5a0d590ec1d2ebb222defb2253ca85b2154fd8c04"
+      ],
+      "URL": [
+        "https://www.opus-codec.org/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792135649"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38866265677/job/116859703341)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-orc": {
+    "files": [
+      "mingw64/bin/liborc-0.4-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-orc-0.4.44-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-orc"
+      ],
+      "BASE": [
+        "mingw-w64-orc"
+      ],
+      "VERSION": [
+        "0.4.44-1"
+      ],
+      "DESC": [
+        "The Oild Runtime Compiler (mingw-w64)"
+      ],
+      "CSIZE": [
+        "257176"
+      ],
+      "ISIZE": [
+        "1331149"
+      ],
+      "SHA256SUM": [
+        "3aef056c8f1093d7a6c1d19a0a34ac074056ce7ddd7d8122de01e25e66d2788b"
+      ],
+      "URL": [
+        "https://gstreamer.freedesktop.org/projects/orc.html"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1789329806"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/34779484032/job/103783748106)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-pango": {
+    "files": [
+      "mingw64/bin/libpango-1.0-0.dll",
+      "mingw64/bin/libpangocairo-1.0-0.dll",
+      "mingw64/bin/libpangoft2-1.0-0.dll",
+      "mingw64/bin/libpangowin32-1.0-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-pango-1.58.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-pango"
+      ],
+      "BASE": [
+        "mingw-w64-pango"
+      ],
+      "VERSION": [
+        "1.58.2-1"
+      ],
+      "DESC": [
+        "A library for layout and rendering of text (mingw-w64)"
+      ],
+      "CSIZE": [
+        "697948"
+      ],
+      "ISIZE": [
+        "4195438"
+      ],
+      "SHA256SUM": [
+        "6aa68db02f6158dba802da406d25b29650011beb2d5d1b0a0050081e19874e57"
+      ],
+      "URL": [
+        "https://www.pango.org/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786085322"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31154837955/job/92791986382)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cairo",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-fontconfig",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-harfbuzz",
+        "mingw-w64-x86_64-fribidi",
+        "mingw-w64-x86_64-libthai"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-gi-docgen",
+        "mingw-w64-x86_64-python-docutils"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-cairo": {
+    "files": [
+      "mingw64/bin/libcairo-2.dll",
+      "mingw64/bin/libcairo-gobject-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-cairo-1.18.6-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-cairo"
+      ],
+      "BASE": [
+        "mingw-w64-cairo"
+      ],
+      "VERSION": [
+        "1.18.6-2"
+      ],
+      "DESC": [
+        "Cairo vector graphics library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "897543"
+      ],
+      "ISIZE": [
+        "4182996"
+      ],
+      "SHA256SUM": [
+        "937a911b5efd6388b4ed8e6e268bbc4985db2f897648fb60de57ae4bc7fac7d6"
+      ],
+      "URL": [
+        "https://cairographics.org/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later OR MPL-1.1"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790320123"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/36106053577/job/107978710065)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-fontconfig",
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-lzo2",
+        "mingw-w64-x86_64-pixman",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-python-fonttools",
+        "mingw-w64-x86_64-gettext-tools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-freetype": {
+    "files": [
+      "mingw64/bin/libfreetype-6.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-freetype-2.15.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-freetype"
+      ],
+      "BASE": [
+        "mingw-w64-freetype"
+      ],
+      "VERSION": [
+        "2.15.0-1"
+      ],
+      "DESC": [
+        "TrueType font rendering library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "640301"
+      ],
+      "ISIZE": [
+        "2952206"
+      ],
+      "SHA256SUM": [
+        "426bd4e0e979118682be881ace475ef4d3ff1668084ac796350fb7e0504b82ef"
+      ],
+      "URL": [
+        "https://www.freetype.org/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later OR FTL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791961727"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38526321298/job/115727408100)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-brotli",
+        "mingw-w64-x86_64-bzip2",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-harfbuzz"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-brotli": {
+    "files": [
+      "mingw64/bin/libbrotlicommon.dll",
+      "mingw64/bin/libbrotlidec.dll",
+      "mingw64/bin/libbrotlienc.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-brotli-1.2.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-brotli"
+      ],
+      "BASE": [
+        "mingw-w64-brotli"
+      ],
+      "VERSION": [
+        "1.2.0-1"
+      ],
+      "DESC": [
+        "Brotli compression library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "455164"
+      ],
+      "ISIZE": [
+        "2200645"
+      ],
+      "SHA256SUM": [
+        "f5f2f7e723a08378241d15f0537386950c1a48e2d82bc47bedd632bd61852aba"
+      ],
+      "URL": [
+        "https://github.com/google/brotli"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1762401428"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/db1199d2/19124245426)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-harfbuzz": {
+    "files": [
+      "mingw64/bin/libharfbuzz-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-harfbuzz-14.6.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-harfbuzz"
+      ],
+      "BASE": [
+        "mingw-w64-harfbuzz"
+      ],
+      "VERSION": [
+        "14.6.0-1"
+      ],
+      "DESC": [
+        "OpenType text shaping engine (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2436445"
+      ],
+      "ISIZE": [
+        "18507787"
+      ],
+      "SHA256SUM": [
+        "23a9b505159b3b9086ca918cc437c20e496d2f411aa25a050bd82b1070a079d1"
+      ],
+      "URL": [
+        "https://harfbuzz.github.io/"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791336231"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/37556746731/job/112584645451)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-graphite2",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-gtk-doc",
+        "mingw-w64-x86_64-icu",
+        "mingw-w64-x86_64-cairo",
+        "mingw-w64-x86_64-chafa",
+        "mingw-w64-x86_64-ragel"
+      ],
+      "CHECKDEPENDS": [
+        "mingw-w64-x86_64-python-fonttools",
+        "mingw-w64-x86_64-python-setuptools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-graphite2": {
+    "files": [
+      "mingw64/bin/libgraphite2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-graphite2-1.3.15-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-graphite2"
+      ],
+      "BASE": [
+        "mingw-w64-graphite2"
+      ],
+      "VERSION": [
+        "1.3.15-1"
+      ],
+      "DESC": [
+        "Font rendering capabilities for complex non-Roman writing systems (mingw-w64)"
+      ],
+      "CSIZE": [
+        "153194"
+      ],
+      "ISIZE": [
+        "612669"
+      ],
+      "SHA256SUM": [
+        "6ad20d6c16e559f7c4b06fe71248e1201c7edf494d04e5721ed7f9b3f7fd1f74"
+      ],
+      "URL": [
+        "https://github.com/silnrsi/graphite"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1780525121"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/26916211151/job/79406381143)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-fontconfig": {
+    "files": [
+      "mingw64/bin/libfontconfig-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-fontconfig-2.18.3-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-fontconfig"
+      ],
+      "BASE": [
+        "mingw-w64-fontconfig"
+      ],
+      "VERSION": [
+        "2.18.3-1"
+      ],
+      "DESC": [
+        "A library for configuring and customizing font access (mingw-w64)"
+      ],
+      "CSIZE": [
+        "304420"
+      ],
+      "ISIZE": [
+        "1877714"
+      ],
+      "SHA256SUM": [
+        "7cdd32ad27ee9f8d176698744f3efa123feba57cecb833e87c221b50cd7224d1"
+      ],
+      "URL": [
+        "https://wiki.freedesktop.org/www/Software/fontconfig/"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786085145"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31154837955/job/92791986382)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-expat",
+        "mingw-w64-x86_64-freetype"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-gperf"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-pixman": {
+    "files": [
+      "mingw64/bin/libpixman-1-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-pixman-0.46.4-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-pixman"
+      ],
+      "BASE": [
+        "mingw-w64-pixman"
+      ],
+      "VERSION": [
+        "0.46.4-3"
+      ],
+      "DESC": [
+        "The pixel-manipulation library for X and cairo (mingw-w64)"
+      ],
+      "CSIZE": [
+        "358460"
+      ],
+      "ISIZE": [
+        "1840728"
+      ],
+      "SHA256SUM": [
+        "435715dd1ca4c55873cf3c38d644615196bc2d238e3366f8ff81cc0811260eb2"
+      ],
+      "URL": [
+        "https://gitlab.freedesktop.org/pixman/pixman"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1778342829"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/25604436836/job/75163795674)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-fribidi": {
+    "files": [
+      "mingw64/bin/libfribidi-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-fribidi-1.0.17-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-fribidi"
+      ],
+      "BASE": [
+        "mingw-w64-fribidi"
+      ],
+      "VERSION": [
+        "1.0.17-1"
+      ],
+      "DESC": [
+        "A Free Implementation of the Unicode Bidirectional Algorithm (mingw-w64)"
+      ],
+      "CSIZE": [
+        "86786"
+      ],
+      "ISIZE": [
+        "502351"
+      ],
+      "SHA256SUM": [
+        "707f6a2f9a49c83938271bfd92a11f80bd4c18c4837210173fcb39e9d841e5ac"
+      ],
+      "URL": [
+        "https://github.com/fribidi/fribidi"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790056139"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/35691417671/job/106629026697)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libthai": {
+    "files": [
+      "mingw64/bin/libthai-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libthai-0.1.30-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libthai"
+      ],
+      "BASE": [
+        "mingw-w64-libthai"
+      ],
+      "VERSION": [
+        "0.1.30-1"
+      ],
+      "DESC": [
+        "Thai language support routines (mingw-w64)"
+      ],
+      "CSIZE": [
+        "214891"
+      ],
+      "ISIZE": [
+        "851599"
+      ],
+      "SHA256SUM": [
+        "e8cfad91934e24e9a88221b66f2d1c5a310c952ef86631107a632d3ff1738211"
+      ],
+      "URL": [
+        "https://linux.thai.net/projects/libthai"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1768165680"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/a72b8c90/20901862482)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libdatrie"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-libthai-docs: Documentation"
+      ],
+      "MAKEDEPENDS": [
+        "autoconf-archive",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-doxygen"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libdatrie": {
+    "files": [
+      "mingw64/bin/libdatrie-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libdatrie-0.2.14-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libdatrie"
+      ],
+      "BASE": [
+        "mingw-w64-libdatrie"
+      ],
+      "VERSION": [
+        "0.2.14-1"
+      ],
+      "DESC": [
+        "Implementation of double-array structure for representing trie, as proposed by Junichi Aoe. (mingw-w64)"
+      ],
+      "CSIZE": [
+        "81638"
+      ],
+      "ISIZE": [
+        "339609"
+      ],
+      "SHA256SUM": [
+        "fbbf30e9a911c1139ba5c38c5ae008309dd912f6c6b1e05f4310ec698e1b1339"
+      ],
+      "URL": [
+        "https://linux.thai.net/projects/datrie"
+      ],
+      "LICENSE": [
+        "LGPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1764353428"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/8cbb808c/19771093658)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libiconv"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-libdatrie-docs: Documentation"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-doxygen"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gst-plugins-good": {
+    "files": [
+      "mingw64/lib/gstreamer-1.0/libgstaudioparsers.dll",
+      "mingw64/lib/gstreamer-1.0/libgstautodetect.dll",
+      "mingw64/lib/gstreamer-1.0/libgstisomp4.dll",
+      "mingw64/lib/gstreamer-1.0/libgstrtp.dll",
+      "mingw64/lib/gstreamer-1.0/libgstrtpmanager.dll",
+      "mingw64/lib/gstreamer-1.0/libgstudp.dll",
+      "mingw64/lib/gstreamer-1.0/libgstlevel.dll",
+      "mingw64/lib/gstreamer-1.0/libgstjpeg.dll",
+      "mingw64/lib/gstreamer-1.0/libgstpng.dll"
+    ],
+    "package": {
+      "NAME": [
+        "mingw-w64-x86_64-gst-plugins-good"
+      ],
+      "BASE": [
+        "mingw-w64-gst-plugins-good"
+      ],
+      "VERSION": [
+        "1.28.8-1"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-bzip2",
+        "mingw-w64-x86_64-cairo",
+        "mingw-w64-x86_64-flac",
+        "mingw-w64-x86_64-gdk-pixbuf2",
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-gst-plugins-base",
+        "mingw-w64-x86_64-gstreamer",
+        "mingw-w64-x86_64-lame",
+        "mingw-w64-x86_64-libcaca",
+        "mingw-w64-x86_64-libjpeg",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libshout",
+        "mingw-w64-x86_64-libsoup3",
+        "mingw-w64-x86_64-libxml2",
+        "mingw-w64-x86_64-libvpx",
+        "mingw-w64-x86_64-mpg123",
+        "mingw-w64-x86_64-opencore-amr",
+        "mingw-w64-x86_64-speex",
+        "mingw-w64-x86_64-taglib",
+        "mingw-w64-x86_64-twolame",
+        "mingw-w64-x86_64-wavpack",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "FILENAME": [
+        "mingw-w64-x86_64-gst-plugins-good-1.28.8-1-any.pkg.tar.zst"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "SHA256SUM": [
+        "252745a19efc65aac3671f44492a3c6a60a756c51cb1d87ba967fdd52d196fc4"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gdk-pixbuf2": {
+    "files": [
+      "mingw64/bin/libgdk_pixbuf-2.0-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gdk-pixbuf2-2.44.8-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gdk-pixbuf2"
+      ],
+      "BASE": [
+        "mingw-w64-gdk-pixbuf2"
+      ],
+      "VERSION": [
+        "2.44.8-1"
+      ],
+      "DESC": [
+        "An image loading library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "823247"
+      ],
+      "ISIZE": [
+        "6278863"
+      ],
+      "SHA256SUM": [
+        "2ae126427a404cbcac69f9995f71e7deea8733e0962d84bde0ac9bce46ed45b6"
+      ],
+      "URL": [
+        "https://gitlab.gnome.org/GNOME/gdk-pixbuf"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791148252"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/37234938327/job/111532058671)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-libjpeg-turbo",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libtiff"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-libwmf: Load .wmf and .apm",
+        "mingw-w64-x86_64-libavif: Load .avif",
+        "mingw-w64-x86_64-libheif: Load .heif, .heic, and .avif",
+        "mingw-w64-x86_64-libjxl: Load .jxl",
+        "mingw-w64-x86_64-librsvg: Load .svg, .svgz, and .svg.gz",
+        "mingw-w64-x86_64-webp-pixbuf-loader: Load .webp"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-gi-docgen",
+        "mingw-w64-x86_64-python-docutils"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libtiff": {
+    "files": [
+      "mingw64/bin/libtiff-6.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libtiff-4.7.2-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libtiff"
+      ],
+      "BASE": [
+        "mingw-w64-libtiff"
+      ],
+      "VERSION": [
+        "4.7.2-2"
+      ],
+      "DESC": [
+        "Library for manipulation of TIFF images (mingw-w64)"
+      ],
+      "CSIZE": [
+        "713542"
+      ],
+      "ISIZE": [
+        "3246085"
+      ],
+      "SHA256SUM": [
+        "e330307e569ea912f6911d6ceae994d96ac68c27b4860c1f805ce9078439786c"
+      ],
+      "URL": [
+        "https://libtiff.gitlab.io/libtiff/"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792135114"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38866265677/job/116859703341)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-jbigkit",
+        "mingw-w64-x86_64-lerc",
+        "mingw-w64-x86_64-libjpeg-turbo",
+        "mingw-w64-x86_64-libdeflate",
+        "mingw-w64-x86_64-libwebp",
+        "mingw-w64-x86_64-xz",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zstd"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-python-sphinx"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-jbigkit": {
+    "files": [
+      "mingw64/bin/libjbig-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-jbigkit-2.1-6-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-jbigkit"
+      ],
+      "BASE": [
+        "mingw-w64-jbigkit"
+      ],
+      "VERSION": [
+        "2.1-6"
+      ],
+      "DESC": [
+        "Data compression library/utilities for bi-level high-resolution images (mingw-w64)"
+      ],
+      "CSIZE": [
+        "107793"
+      ],
+      "ISIZE": [
+        "473757"
+      ],
+      "SHA256SUM": [
+        "3db9e32abca5d208920a096e5ae01952f2d8a361780428b9646b6da6750f7321"
+      ],
+      "URL": [
+        "https://www.cl.cam.ac.uk/~mgk25/jbigkit/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786713585"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31803563300/job/94776980328)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-libtool"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-lerc": {
+    "files": [
+      "mingw64/bin/libLerc.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-lerc-4.1.1-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-lerc"
+      ],
+      "BASE": [
+        "mingw-w64-lerc"
+      ],
+      "VERSION": [
+        "4.1.1-1"
+      ],
+      "DESC": [
+        "Limited Error Raster Compression library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "312675"
+      ],
+      "ISIZE": [
+        "1914423"
+      ],
+      "SHA256SUM": [
+        "5bc170650bc02812a7c674a5f7b8ff2781b4bfa259ab2da2264c3008e2a04c72"
+      ],
+      "URL": [
+        "https://github.com/Esri/lerc"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1783407939"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28847968752/job/85556200187)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libdeflate": {
+    "files": [
+      "mingw64/bin/libdeflate.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libdeflate-1.26-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libdeflate"
+      ],
+      "BASE": [
+        "mingw-w64-libdeflate"
+      ],
+      "VERSION": [
+        "1.26-1"
+      ],
+      "DESC": [
+        "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression (mingw-w64)"
+      ],
+      "CSIZE": [
+        "93177"
+      ],
+      "ISIZE": [
+        "379845"
+      ],
+      "SHA256SUM": [
+        "aa0d9b5e2d0413d5e01745a48ef0c8fa293172d48c13f87b61ada627ab7407ad"
+      ],
+      "URL": [
+        "https://github.com/ebiggers/libdeflate"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1787491412"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/32642142081/job/97200764995)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libwebp": {
+    "files": [
+      "mingw64/bin/libsharpyuv-0.dll",
+      "mingw64/bin/libwebp-7.dll",
+      "mingw64/bin/libwebpmux-3.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libwebp-1.6.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libwebp"
+      ],
+      "BASE": [
+        "mingw-w64-libwebp"
+      ],
+      "VERSION": [
+        "1.6.0-1"
+      ],
+      "DESC": [
+        "A library to encode and decode images in WebP format (mingw-w64)"
+      ],
+      "CSIZE": [
+        "627180"
+      ],
+      "ISIZE": [
+        "4105222"
+      ],
+      "SHA256SUM": [
+        "360b1690d41eb497dfe50526460a2424600a6a806cbb76c5b0fec9f14623ac59"
+      ],
+      "URL": [
+        "https://developers.google.com/speed/webp/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1752174466"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/70dec0bd/16203711503)"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-libsharpyuv"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-giflib",
+        "mingw-w64-x86_64-libjpeg-turbo",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libtiff"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-zstd": {
+    "files": [
+      "mingw64/bin/libzstd.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-zstd-1.5.7-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-zstd"
+      ],
+      "BASE": [
+        "mingw-w64-zstd"
+      ],
+      "VERSION": [
+        "1.5.7-2"
+      ],
+      "DESC": [
+        "Zstandard - Fast real-time compression algorithm (mingw-w64)"
+      ],
+      "CSIZE": [
+        "669879"
+      ],
+      "ISIZE": [
+        "3734402"
+      ],
+      "SHA256SUM": [
+        "1add6705b344664f6aca108c85f79ab5bdd9e1162662bb06a4cf40a34f6e0907"
+      ],
+      "URL": [
+        "https://facebook.github.io/zstd/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause OR GPL-2.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1777662937"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/25228967898/job/73979493998)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-lame": {
+    "files": [
+      "mingw64/bin/libmp3lame-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-lame-3.100-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-lame"
+      ],
+      "BASE": [
+        "mingw-w64-lame"
+      ],
+      "VERSION": [
+        "3.100-3"
+      ],
+      "DESC": [
+        "A high quality MPEG Audio Layer III (MP3) encoder (mingw-w64)"
+      ],
+      "CSIZE": [
+        "349976"
+      ],
+      "ISIZE": [
+        "1703069"
+      ],
+      "SHA256SUM": [
+        "083e74a93c2fa764c26d73b5a21e2f5055242bc13997d8dbe6a6c2b4577d6b03"
+      ],
+      "URL": [
+        "https://lame.sourceforge.io/"
+      ],
+      "LICENSE": [
+        "LGPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1675705391"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/aea263ec/4106280502)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libiconv"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-mpg123",
+        "mingw-w64-x86_64-ncurses",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libcaca": {
+    "files": [
+      "mingw64/bin/libcaca-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libcaca-0.99.beta20-8-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libcaca"
+      ],
+      "BASE": [
+        "mingw-w64-libcaca"
+      ],
+      "VERSION": [
+        "0.99.beta20-8"
+      ],
+      "DESC": [
+        "Color AsCii Art library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "377393"
+      ],
+      "ISIZE": [
+        "2974514"
+      ],
+      "SHA256SUM": [
+        "c07a0cab007ed74f9799f7a8ef79cf2ae762d1e89d006e121f3f9f643aac0e32"
+      ],
+      "URL": [
+        "https://github.com/cacalabs/libcaca"
+      ],
+      "LICENSE": [
+        "LGPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1769425728"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/805742ae/21354520508)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-fontconfig",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cppunit",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-python"
+      ],
+      "CHECKDEPENDS": [
+        "mingw-w64-x86_64-cppunit"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-speex": {
+    "files": [
+      "mingw64/bin/libspeex-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-speex-1.2.1-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-speex"
+      ],
+      "BASE": [
+        "mingw-w64-speex"
+      ],
+      "VERSION": [
+        "1.2.1-1"
+      ],
+      "DESC": [
+        "A free codec for free speech (mingw-w64)"
+      ],
+      "CSIZE": [
+        "541750"
+      ],
+      "ISIZE": [
+        "1009288"
+      ],
+      "SHA256SUM": [
+        "28abd57d2f49aeb60d667a5d3e3f04293995d539c9bafd3f98a0365fb8bf236a"
+      ],
+      "URL": [
+        "https://speex.org/"
+      ],
+      "LICENSE": [
+        "BSD"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1655883806"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/7d84a7e0/2540640106)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libogg",
+        "mingw-w64-x86_64-speexdsp"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gnutls": {
+    "files": [
+      "mingw64/bin/libgnutls-30.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gnutls-3.8.13-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gnutls"
+      ],
+      "BASE": [
+        "mingw-w64-gnutls"
+      ],
+      "VERSION": [
+        "3.8.13-3"
+      ],
+      "DESC": [
+        "A library which provides a secure layer over a reliable transport layer (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2402607"
+      ],
+      "ISIZE": [
+        "14968143"
+      ],
+      "SHA256SUM": [
+        "0d5a373ac558af20dc0a46d249e99f8a3b3d3562ae013e73f00642dc3bd118cf"
+      ],
+      "URL": [
+        "https://www.gnutls.org/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-3.0-or-later",
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1783321993"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28774032409/job/85313814973)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-brotli",
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-gmp",
+        "mingw-w64-x86_64-libidn2",
+        "mingw-w64-x86_64-libtasn1",
+        "mingw-w64-x86_64-libunistring",
+        "mingw-w64-x86_64-libwinpthread",
+        "mingw-w64-x86_64-nettle",
+        "mingw-w64-x86_64-p11-kit",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zstd"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-gtk-doc",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gmp": {
+    "files": [
+      "mingw64/bin/libgmp-10.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gmp-6.3.0-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gmp"
+      ],
+      "BASE": [
+        "mingw-w64-gmp"
+      ],
+      "VERSION": [
+        "6.3.0-2"
+      ],
+      "DESC": [
+        "A free library for arbitrary precision arithmetic (mingw-w64)"
+      ],
+      "CSIZE": [
+        "591674"
+      ],
+      "ISIZE": [
+        "3122860"
+      ],
+      "SHA256SUM": [
+        "8924433974c4add46cb46ea4f6ef283b5c5139d3f552375115b5580f855015cc"
+      ],
+      "URL": [
+        "https://gmplib.org/"
+      ],
+      "LICENSE": [
+        "LGPL3",
+        "GPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1694763678"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/0852421d/6195286796)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libidn2": {
+    "files": [
+      "mingw64/bin/libidn2-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libidn2-2.3.8-4-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libidn2"
+      ],
+      "BASE": [
+        "mingw-w64-libidn2"
+      ],
+      "VERSION": [
+        "2.3.8-4"
+      ],
+      "DESC": [
+        "Implementation of the Stringprep, Punycode and IDNA specifications (mingw-w64)"
+      ],
+      "CSIZE": [
+        "175756"
+      ],
+      "ISIZE": [
+        "774125"
+      ],
+      "SHA256SUM": [
+        "f98a157446f9ac35465022e329cdaf6169b0c9fa19837e9d80aff9d4e5109013"
+      ],
+      "URL": [
+        "https://www.gnu.org/software/libidn/#libidn2"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later",
+        "spdx:LGPL-3.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1759596954"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/c6213b4d/18246305820)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-libunistring"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-gtk-doc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libunistring": {
+    "files": [
+      "mingw64/bin/libunistring-5.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libunistring-1.4.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libunistring"
+      ],
+      "BASE": [
+        "mingw-w64-libunistring"
+      ],
+      "VERSION": [
+        "1.4.2-1"
+      ],
+      "DESC": [
+        "Library for manipulating Unicode strings and C strings. (mingw-w64)"
+      ],
+      "CSIZE": [
+        "869794"
+      ],
+      "ISIZE": [
+        "6633599"
+      ],
+      "SHA256SUM": [
+        "c940cf52fb2b579baa596d3c1d911f7544cbf90f8bd19c260377aa115c65b059"
+      ],
+      "URL": [
+        "https://www.gnu.org/software/libunistring"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-3.0-or-later OR GPL-3.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1776624318"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/24636365904/job/72032462295)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libiconv"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libtasn1": {
+    "files": [
+      "mingw64/bin/libtasn1-6.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libtasn1-4.21.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libtasn1"
+      ],
+      "BASE": [
+        "mingw-w64-libtasn1"
+      ],
+      "VERSION": [
+        "4.21.0-1"
+      ],
+      "DESC": [
+        "A library for Abstract Syntax Notation One (ASN.1) and Distinguish Encoding Rules (DER) manipulation (mingw-w64)"
+      ],
+      "CSIZE": [
+        "203869"
+      ],
+      "ISIZE": [
+        "639269"
+      ],
+      "SHA256SUM": [
+        "9f7aa213d14135e5856cc7a1254d871cbed60dee00b40db87a6ca7a4e733d2b2"
+      ],
+      "URL": [
+        "https://www.gnu.org/software/libtasn1/"
+      ],
+      "LICENSE": [
+        "GPL3, LGPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1768142987"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/a72b8c90/20896962743)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-gtk-doc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-nettle": {
+    "files": [
+      "mingw64/bin/libhogweed-7.dll",
+      "mingw64/bin/libnettle-9.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-nettle-4.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-nettle"
+      ],
+      "BASE": [
+        "mingw-w64-nettle"
+      ],
+      "VERSION": [
+        "4.0-1"
+      ],
+      "DESC": [
+        "A low-level cryptographic library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "577414"
+      ],
+      "ISIZE": [
+        "2920235"
+      ],
+      "SHA256SUM": [
+        "505773abfb4f3af514012e2926c11db6365299c7eda141d958a065740740dc86"
+      ],
+      "URL": [
+        "https://www.lysator.liu.se/~nisse/nettle"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later",
+        "spdx:LGPL-3.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1783321807"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28774032409/job/85313814973)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-gmp"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-p11-kit": {
+    "files": [
+      "mingw64/bin/libp11-kit-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-p11-kit-0.26.5-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-p11-kit"
+      ],
+      "BASE": [
+        "mingw-w64-p11-kit"
+      ],
+      "VERSION": [
+        "0.26.5-1"
+      ],
+      "DESC": [
+        "Library to work with PKCS#11 modules (mingw-w64)"
+      ],
+      "CSIZE": [
+        "650805"
+      ],
+      "ISIZE": [
+        "4054745"
+      ],
+      "SHA256SUM": [
+        "171b877586efd64888648007a56c3a263eb2d4abc82594c90d30b1b7e4b9f5eb"
+      ],
+      "URL": [
+        "https://p11-glue.freedesktop.org/p11-kit.html"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786127989"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31203153642/job/92947745365)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libtasn1",
+        "mingw-w64-x86_64-libffi",
+        "mingw-w64-x86_64-gettext-runtime"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-gtk-doc",
+        "mingw-w64-x86_64-gettext-tools",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libxml2": {
+    "files": [
+      "mingw64/bin/libxml2-16.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libxml2-2.15.4-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libxml2"
+      ],
+      "BASE": [
+        "mingw-w64-libxml2"
+      ],
+      "VERSION": [
+        "2.15.4-2"
+      ],
+      "DESC": [
+        "XML parsing library, version 2 (mingw-w64)"
+      ],
+      "CSIZE": [
+        "831095"
+      ],
+      "ISIZE": [
+        "4476388"
+      ],
+      "SHA256SUM": [
+        "6c4bbee61b28a54b2f63c63d09f5e8a49e38dd77fc8eacccdb48467dec0399ca"
+      ],
+      "URL": [
+        "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792135481"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38866265677/job/116859703341)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-docbook-xsl",
+        "mingw-w64-x86_64-libxslt",
+        "mingw-w64-x86_64-tools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libvpx": {
+    "files": [
+      "mingw64/bin/libvpx-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libvpx-1.17.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libvpx"
+      ],
+      "BASE": [
+        "mingw-w64-libvpx"
+      ],
+      "VERSION": [
+        "1.17.0-1"
+      ],
+      "DESC": [
+        "The VP8/VP9 Codec SDK (mingw-w64)"
+      ],
+      "CSIZE": [
+        "1628339"
+      ],
+      "ISIZE": [
+        "12009803"
+      ],
+      "SHA256SUM": [
+        "59801c4a1a8cc76211a16f355121632ebc52e2f7eefb592e9b6885d81833e476"
+      ],
+      "URL": [
+        "https://www.webmproject.org/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1788468131"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/33803387994/job/100807966277)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-nasm",
+        "mingw-w64-x86_64-winpthreads"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-opencore-amr": {
+    "files": [
+      "mingw64/bin/libopencore-amrnb-0.dll",
+      "mingw64/bin/libopencore-amrwb-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-opencore-amr-0.1.6-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-opencore-amr"
+      ],
+      "BASE": [
+        "mingw-w64-opencore-amr"
+      ],
+      "VERSION": [
+        "0.1.6-1"
+      ],
+      "DESC": [
+        "Open source implementation of the Adaptive Multi Rate (AMR) speech codec (mingw-w64)"
+      ],
+      "CSIZE": [
+        "173587"
+      ],
+      "ISIZE": [
+        "709320"
+      ],
+      "SHA256SUM": [
+        "39cec71d74f94d63cca90f22e6810818248c15fb2a6bf1ee544dde4cd6e2d1a4"
+      ],
+      "URL": [
+        "https://opencore-amr.sourceforge.io/"
+      ],
+      "LICENSE": [
+        "Apache"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1659867711"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/70c69031/2812102588)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gst-plugins-bad": {
+    "files": [
+      "mingw64/lib/gstreamer-1.0/libgstd3d11.dll",
+      "mingw64/lib/gstreamer-1.0/libgstvideoparsersbad.dll",
+      "mingw64/lib/gstreamer-1.0/libgstwasapi.dll"
+    ],
+    "package": {
+      "NAME": [
+        "mingw-w64-x86_64-gst-plugins-bad"
+      ],
+      "BASE": [
+        "mingw-w64-gst-plugins-bad"
+      ],
+      "VERSION": [
+        "1.28.8-1"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gst-plugins-bad-libs=1.28.8",
+        "mingw-w64-x86_64-aom",
+        "mingw-w64-x86_64-bzip2",
+        "mingw-w64-x86_64-cairo",
+        "mingw-w64-x86_64-chromaprint",
+        "mingw-w64-x86_64-curl",
+        "mingw-w64-x86_64-faad2",
+        "mingw-w64-x86_64-faac",
+        "mingw-w64-x86_64-fdk-aac",
+        "mingw-w64-x86_64-fluidsynth",
+        "mingw-w64-x86_64-gsm",
+        "mingw-w64-x86_64-imath",
+        "mingw-w64-x86_64-lcms2",
+        "mingw-w64-x86_64-libass",
+        "mingw-w64-x86_64-libbs2b",
+        "mingw-w64-x86_64-libdca",
+        "mingw-w64-x86_64-libdvdnav",
+        "mingw-w64-x86_64-libdvdread",
+        "mingw-w64-x86_64-libexif",
+        "mingw-w64-x86_64-libgme",
+        "mingw-w64-x86_64-libjpeg",
+        "mingw-w64-x86_64-liblc3",
+        "mingw-w64-x86_64-libmodplug",
+        "mingw-w64-x86_64-libmpeg2",
+        "mingw-w64-x86_64-librsvg",
+        "mingw-w64-x86_64-libsndfile",
+        "mingw-w64-x86_64-libsrtp",
+        "mingw-w64-x86_64-libssh2",
+        "mingw-w64-x86_64-libwebp",
+        "mingw-w64-x86_64-libxml2",
+        "mingw-w64-x86_64-libmicrodns",
+        "mingw-w64-x86_64-libmpcdec",
+        "mingw-w64-x86_64-libde265",
+        "mingw-w64-x86_64-libva",
+        "mingw-w64-x86_64-libopenmpt",
+        "mingw-w64-x86_64-sbc",
+        "mingw-w64-x86_64-nettle",
+        "mingw-w64-x86_64-openal",
+        "mingw-w64-x86_64-openexr",
+        "mingw-w64-x86_64-openh264",
+        "mingw-w64-x86_64-openjpeg2",
+        "mingw-w64-x86_64-openssl",
+        "mingw-w64-x86_64-opus",
+        "mingw-w64-x86_64-orc",
+        "mingw-w64-x86_64-pango",
+        "mingw-w64-x86_64-rtmpdump",
+        "mingw-w64-x86_64-soundtouch",
+        "mingw-w64-x86_64-spandsp",
+        "mingw-w64-x86_64-srt",
+        "mingw-w64-x86_64-svt-av1",
+        "mingw-w64-x86_64-svt-jpeg-xs",
+        "mingw-w64-x86_64-vo-amrwbenc",
+        "mingw-w64-x86_64-webrtc-audio-processing-1",
+        "mingw-w64-x86_64-x265",
+        "mingw-w64-x86_64-zbar",
+        "mingw-w64-x86_64-vmaf"
+      ],
+      "FILENAME": [
+        "mingw-w64-x86_64-gst-plugins-bad-1.28.8-1-any.pkg.tar.zst"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "SHA256SUM": [
+        "d7844f67a0a39207232a447d7dada8aace8f7ee9c2d4b2897dbb282c51487210"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gst-plugins-bad-libs": {
+    "files": [
+      "mingw64/bin/libgstcodecparsers-1.0-0.dll",
+      "mingw64/bin/libgstcodecs-1.0-0.dll",
+      "mingw64/bin/libgstd3d11-1.0-0.dll",
+      "mingw64/bin/libgstd3dshader-1.0-0.dll",
+      "mingw64/bin/libgstdxva-1.0-0.dll"
+    ],
+    "package": {
+      "NAME": [
+        "mingw-w64-x86_64-gst-plugins-bad-libs"
+      ],
+      "BASE": [
+        "mingw-w64-gst-plugins-bad"
+      ],
+      "VERSION": [
+        "1.28.8-1"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gst-plugins-base",
+        "mingw-w64-x86_64-vulkan-loader",
+        "mingw-w64-x86_64-directx-headers",
+        "mingw-w64-x86_64-directxmath",
+        "mingw-w64-x86_64-libnice",
+        "mingw-w64-x86_64-libva"
+      ],
+      "FILENAME": [
+        "mingw-w64-x86_64-gst-plugins-bad-libs-1.28.8-1-any.pkg.tar.zst"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "SHA256SUM": [
+        "72897e667e6f806c04b8102e5956ba49908600db451a6002c9aedb1e3bcba301"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-vulkan-loader": {
+    "files": [
+      "mingw64/bin/vulkan-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-vulkan-loader-1~1.4.363.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-vulkan-loader"
+      ],
+      "BASE": [
+        "mingw-w64-vulkan-loader"
+      ],
+      "VERSION": [
+        "1~1.4.363.0-1"
+      ],
+      "DESC": [
+        "Vulkan Installable Client Driver (ICD) Loader (mingw-w64)"
+      ],
+      "GROUPS": [
+        "mingw-w64-x86_64-vulkan-devel"
+      ],
+      "CSIZE": [
+        "223456"
+      ],
+      "ISIZE": [
+        "927385"
+      ],
+      "SHA256SUM": [
+        "281fa31b1a023485d4fd04a092a8b5e9ca2f59804df7fcf9f2d4e5aaa5438af0"
+      ],
+      "URL": [
+        "https://www.khronos.org/vulkan/"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790898965"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/36943128654/job/110639013972)"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-vulkan"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-vulkan-headers"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libva": {
+    "files": [
+      "mingw64/bin/libva.dll",
+      "mingw64/bin/libva_win32.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libva-2.24.1-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libva"
+      ],
+      "BASE": [
+        "mingw-w64-libva"
+      ],
+      "VERSION": [
+        "2.24.1-1"
+      ],
+      "DESC": [
+        "Video Acceleration (VA) API (mingw-w64)"
+      ],
+      "CSIZE": [
+        "247361"
+      ],
+      "ISIZE": [
+        "1318699"
+      ],
+      "SHA256SUM": [
+        "956243be458339aa2299e554386e5451ff915e93fb44f622a88318175dcafd8c"
+      ],
+      "URL": [
+        "https://intel.github.io/libva/"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1783812060"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/29171806860/job/86594110913)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-aom": {
+    "files": [
+      "mingw64/bin/libaom.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-aom-3.15.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-aom"
+      ],
+      "BASE": [
+        "mingw-w64-aom"
+      ],
+      "VERSION": [
+        "3.15.2-1"
+      ],
+      "DESC": [
+        "AV1 codec library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "3805682"
+      ],
+      "ISIZE": [
+        "24269461"
+      ],
+      "SHA256SUM": [
+        "e54aaa2f067188d687e92733cb2bfcfc54847e0fa6db3015c8e53b09d4b1bc92"
+      ],
+      "URL": [
+        "https://aomedia.org/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-2-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791620531"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38037437100/job/114170720205)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-git",
+        "mingw-w64-x86_64-nasm",
+        "mingw-w64-x86_64-perl",
+        "mingw-w64-x86_64-python"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libgomp": {
+    "files": [
+      "mingw64/bin/libgomp-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libgomp-16.2.0-6-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libgomp"
+      ],
+      "BASE": [
+        "mingw-w64-gcc"
+      ],
+      "VERSION": [
+        "16.2.0-6"
+      ],
+      "DESC": [
+        "OpenMP library shipped by GCC (mingw-w64)"
+      ],
+      "GROUPS": [
+        "mingw-w64-x86_64-toolchain"
+      ],
+      "CSIZE": [
+        "312356"
+      ],
+      "ISIZE": [
+        "1468606"
+      ],
+      "SHA256SUM": [
+        "2c74bc80f156b9cd3111ee1e773788638b855c1d7e9c9827974f5abd5d01e70f"
+      ],
+      "URL": [
+        "https://gcc.gnu.org"
+      ],
+      "LICENSE": [
+        "spdx:GPL-3.0-or-later WITH GCC-exception-3.1 AND GFDL-1.3-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791881873"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38372743753/job/115213507115)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-gcc-libs<16.2.0-4"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-omp"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-gcc",
+        "mingw-w64-x86_64-gcc-ada",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-binutils",
+        "mingw-w64-x86_64-crt",
+        "mingw-w64-x86_64-headers",
+        "mingw-w64-x86_64-gmp",
+        "mingw-w64-x86_64-isl",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-mpc",
+        "mingw-w64-x86_64-mpfr",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-texinfo",
+        "mingw-w64-x86_64-windows-default-manifest",
+        "mingw-w64-x86_64-winpthreads",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zstd"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gsm": {
+    "files": [
+      "mingw64/bin/libgsm.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-gsm-1.0.24-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-gsm"
+      ],
+      "BASE": [
+        "mingw-w64-gsm"
+      ],
+      "VERSION": [
+        "1.0.24-1"
+      ],
+      "DESC": [
+        "Shared libraries for GSM 06.10 lossy speech compression (mingw-w64)"
+      ],
+      "CSIZE": [
+        "69385"
+      ],
+      "ISIZE": [
+        "479650"
+      ],
+      "SHA256SUM": [
+        "211f6cd25563324fe603e3dc803950c19b962765a13a268fbff212c2761ba247"
+      ],
+      "URL": [
+        "https://www.quut.com/gsm/"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1772989010"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/ad23bc5d/22825511743)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-pkgconf"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-lcms2": {
+    "files": [
+      "mingw64/bin/liblcms2-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-lcms2-2.19.1-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-lcms2"
+      ],
+      "BASE": [
+        "mingw-w64-lcms2"
+      ],
+      "VERSION": [
+        "2.19.1-1"
+      ],
+      "DESC": [
+        "Small-footprint color management engine, version 2 (mingw-w64)"
+      ],
+      "CSIZE": [
+        "404793"
+      ],
+      "ISIZE": [
+        "2194631"
+      ],
+      "SHA256SUM": [
+        "f9858d910df27d3762590e5da75e2589f9f0216ebbf1b6d58bdddbab3d4f35ad"
+      ],
+      "URL": [
+        "https://www.littlecms.com/color-engine/"
+      ],
+      "LICENSE": [
+        "spdx:MIT AND GPL-3.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1778082619"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/25445834131/job/74649571831)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libjpeg-turbo",
+        "mingw-w64-x86_64-libtiff"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libass": {
+    "files": [
+      "mingw64/bin/libass-9.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libass-0.17.5-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libass"
+      ],
+      "BASE": [
+        "mingw-w64-libass"
+      ],
+      "VERSION": [
+        "0.17.5-1"
+      ],
+      "DESC": [
+        "A portable library for SSA/ASS subtitles rendering (mingw-w64)"
+      ],
+      "CSIZE": [
+        "215722"
+      ],
+      "ISIZE": [
+        "913515"
+      ],
+      "SHA256SUM": [
+        "11966a8df12b99454ac552c587f58c4ea81bb040bad1cfdd219bf2f50f567f8d"
+      ],
+      "URL": [
+        "https://github.com/libass/libass"
+      ],
+      "LICENSE": [
+        "spdx:ISC"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1782372127"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28153762039/job/83377297867)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-fribidi",
+        "mingw-w64-x86_64-fontconfig",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-libunibreak",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-harfbuzz"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libunibreak": {
+    "files": [
+      "mingw64/bin/libunibreak-7.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libunibreak-7.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libunibreak"
+      ],
+      "BASE": [
+        "mingw-w64-libunibreak"
+      ],
+      "VERSION": [
+        "7.0-1"
+      ],
+      "DESC": [
+        "An implementation of the line breaking algorithm as described in Unicode 5.2.0 Standard Annex 14, Revision 24 (mingw-w64)"
+      ],
+      "CSIZE": [
+        "36445"
+      ],
+      "ISIZE": [
+        "326907"
+      ],
+      "SHA256SUM": [
+        "ec35669473cad90472a97cdf60f0dc4292383c7dab7bad348ec22c45134c1bce"
+      ],
+      "URL": [
+        "https://github.com/adah1972/libunibreak/"
+      ],
+      "LICENSE": [
+        "spdx:Zlib"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1775999481"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/5dbc5ed2/24307495420)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libgme": {
+    "files": [
+      "mingw64/bin/libgme.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libgme-0.6.5-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libgme"
+      ],
+      "BASE": [
+        "mingw-w64-libgme"
+      ],
+      "VERSION": [
+        "0.6.5-2"
+      ],
+      "DESC": [
+        "Video game music file emulation/playback library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "247879"
+      ],
+      "ISIZE": [
+        "1179897"
+      ],
+      "SHA256SUM": [
+        "d77a6adb402a2127fe38779cc7f6745f005d9dc9a22b8808aee572cb974de461"
+      ],
+      "URL": [
+        "https://github.com/libgme/game-music-emu"
+      ],
+      "LICENSE": [
+        "LGPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1777740820"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/25256918323/job/74057734695)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-liblc3": {
+    "files": [
+      "mingw64/bin/liblc3-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-liblc3-1.1.3-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-liblc3"
+      ],
+      "BASE": [
+        "mingw-w64-liblc3"
+      ],
+      "VERSION": [
+        "1.1.3-1"
+      ],
+      "DESC": [
+        "Low Complexity Communication Codec library and tools (mingw-w64)"
+      ],
+      "CSIZE": [
+        "119817"
+      ],
+      "ISIZE": [
+        "413049"
+      ],
+      "SHA256SUM": [
+        "472e5356d6c6484944c2980c9b63a7fe5d23e8535ee1b6e9031cf83bfe1ca24f"
+      ],
+      "URL": [
+        "https://github.com/google/liblc3"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1739512997"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/b4421681/13323391790)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libmodplug": {
+    "files": [
+      "mingw64/bin/libmodplug-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libmodplug-0.8.9.0-5-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libmodplug"
+      ],
+      "BASE": [
+        "mingw-w64-libmodplug"
+      ],
+      "VERSION": [
+        "0.8.9.0-5"
+      ],
+      "DESC": [
+        "A MOD playing library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "252264"
+      ],
+      "ISIZE": [
+        "1025194"
+      ],
+      "SHA256SUM": [
+        "e7391564dcb80e4141fb1e0fba4b2bf21e58e92de9f073d359dd0db7015c6a31"
+      ],
+      "URL": [
+        "https://modplug-xmms.sourceforge.io/"
+      ],
+      "LICENSE": [
+        "PublicDomain"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1768349641"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/a72b8c90/20976874683)"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-libopenmpt-modplug"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-librsvg": {
+    "files": [
+      "mingw64/bin/librsvg-2-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-librsvg-2.63.3-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-librsvg"
+      ],
+      "BASE": [
+        "mingw-w64-librsvg"
+      ],
+      "VERSION": [
+        "2.63.3-1"
+      ],
+      "DESC": [
+        "SVG rendering library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "21690800"
+      ],
+      "ISIZE": [
+        "198265419"
+      ],
+      "SHA256SUM": [
+        "fff004cdc496702523734be36c56a2d35a6b89238292e36f5695dccab5bc9e5d"
+      ],
+      "URL": [
+        "https://wiki.gnome.org/Projects/LibRsvg"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792350177"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/39156843748/job/117761713513)"
+      ],
+      "REPLACES": [
+        "mingw-w64-x86_64-librsvg-2.40"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-librsvg-2.40"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cairo",
+        "mingw-w64-x86_64-gdk-pixbuf2",
+        "mingw-w64-x86_64-libxml2",
+        "mingw-w64-x86_64-pango"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-gtk3: for rsvg-view-3"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-rust",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-cargo-c",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-gobject-introspection",
+        "mingw-w64-x86_64-vala",
+        "mingw-w64-x86_64-gi-docgen",
+        "mingw-w64-x86_64-python-docutils"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-openal": {
+    "files": [
+      "mingw64/bin/libopenal-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-openal-1.25.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-openal"
+      ],
+      "BASE": [
+        "mingw-w64-openal"
+      ],
+      "VERSION": [
+        "1.25.2-1"
+      ],
+      "DESC": [
+        "OpenAL audio library for use with opengl (mingw-w64)"
+      ],
+      "CSIZE": [
+        "1822499"
+      ],
+      "ISIZE": [
+        "15036306"
+      ],
+      "SHA256SUM": [
+        "bef6595b1b4855d8256e91a5d25a3ff67ea3f28519d54a6783e311a6f980d60e"
+      ],
+      "URL": [
+        "https://github.com/kcat/openal-soft"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1782290773"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28086055303/job/83152202830)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libmysofa"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-fluidsynth",
+        "mingw-w64-x86_64-portaudio"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-openjpeg2": {
+    "files": [
+      "mingw64/bin/libopenjp2-7.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-openjpeg2-2.5.4-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-openjpeg2"
+      ],
+      "BASE": [
+        "mingw-w64-openjpeg2"
+      ],
+      "VERSION": [
+        "2.5.4-2"
+      ],
+      "DESC": [
+        "An open source JPEG 2000 codec (mingw-w64)"
+      ],
+      "CSIZE": [
+        "454547"
+      ],
+      "ISIZE": [
+        "2334615"
+      ],
+      "SHA256SUM": [
+        "32f8f5dc7df9f1f2d57157717136fbba431e15bc000420c953c00ffdf76ecde4"
+      ],
+      "URL": [
+        "https://www.openjpeg.org/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-2-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1758893236"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/ecd1d51f/18039013654)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-lcms2",
+        "mingw-w64-x86_64-libtiff",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-rtmpdump": {
+    "files": [
+      "mingw64/bin/librtmp-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-rtmpdump-2.6-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-rtmpdump"
+      ],
+      "BASE": [
+        "mingw-w64-rtmpdump"
+      ],
+      "VERSION": [
+        "2.6-2"
+      ],
+      "DESC": [
+        "A tool to download rtmp streams (mingw-w64)"
+      ],
+      "CSIZE": [
+        "167387"
+      ],
+      "ISIZE": [
+        "713454"
+      ],
+      "SHA256SUM": [
+        "813755ca816c79c4bd765082238f66a44a94d87780a429a3a38e232ab69967bd"
+      ],
+      "URL": [
+        "https://rtmpdump.mplayerhq.hu/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later",
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1783324488"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28774032409/job/85313814973)"
+      ],
+      "REPLACES": [
+        "mingw-w64-x86_64-rtmpdump-git"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-rtmpdump-git"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-rtmpdump-git"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-gmp",
+        "mingw-w64-x86_64-gnutls",
+        "mingw-w64-x86_64-nettle",
+        "mingw-w64-x86_64-zlib"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-pkgconf",
+        "git"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-srt": {
+    "files": [
+      "mingw64/bin/libsrt.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-srt-1.5.7-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-srt"
+      ],
+      "BASE": [
+        "mingw-w64-srt"
+      ],
+      "VERSION": [
+        "1.5.7-1"
+      ],
+      "DESC": [
+        "Secure Reliable Transport (SRT) (mingw-w64)"
+      ],
+      "CSIZE": [
+        "804841"
+      ],
+      "ISIZE": [
+        "4906430"
+      ],
+      "SHA256SUM": [
+        "7d8be8c85ddd224eee472dd34b293aee5ee1f53bdcc26deb1692042aa38065c7"
+      ],
+      "URL": [
+        "https://www.srtalliance.org/"
+      ],
+      "LICENSE": [
+        "spdx:MPL-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1787908497"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/33158441702/job/98806780215)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-libwinpthread",
+        "mingw-w64-x86_64-openssl"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-pkgconf"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-svt-av1": {
+    "files": [
+      "mingw64/bin/libSvtAv1Enc-4.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-svt-av1-4.2.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-svt-av1"
+      ],
+      "BASE": [
+        "mingw-w64-svt-av1"
+      ],
+      "VERSION": [
+        "4.2.0-1"
+      ],
+      "DESC": [
+        "Scalable Video Technology AV1 encoder (mingw-w64)"
+      ],
+      "CSIZE": [
+        "3187145"
+      ],
+      "ISIZE": [
+        "17986631"
+      ],
+      "SHA256SUM": [
+        "925598f1545754ed5b6b0c213661cf1ebb676ac547ed01a5d37a1f258e0ff0f0"
+      ],
+      "URL": [
+        "https://gitlab.com/AOMediaCodec/SVT-AV1"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause-Clear"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1784911745"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/30110428531/job/89538303713)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-x265": {
+    "files": [
+      "mingw64/bin/libx265-217.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-x265-4.3-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-x265"
+      ],
+      "BASE": [
+        "mingw-w64-x265"
+      ],
+      "VERSION": [
+        "4.3-1"
+      ],
+      "DESC": [
+        "Open Source H265/HEVC video encoder (mingw-w64)"
+      ],
+      "CSIZE": [
+        "3656402"
+      ],
+      "ISIZE": [
+        "77097997"
+      ],
+      "SHA256SUM": [
+        "bf952eec0a847a2dc10bbbe6d029d8a898e473c1ddb6842f11d789449863e40a"
+      ],
+      "URL": [
+        "https://www.x265.org"
+      ],
+      "LICENSE": [
+        "GPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1785621610"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/30720269627/job/91422771067)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-dav1d": {
+    "files": [
+      "mingw64/bin/libdav1d-7.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-dav1d-1.5.4-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-dav1d"
+      ],
+      "BASE": [
+        "mingw-w64-dav1d"
+      ],
+      "VERSION": [
+        "1.5.4-1"
+      ],
+      "DESC": [
+        "AV1 cross-platform decoder focused on speed and correctness (mingw-w64)"
+      ],
+      "CSIZE": [
+        "903903"
+      ],
+      "ISIZE": [
+        "5225645"
+      ],
+      "SHA256SUM": [
+        "10b2ec838a8421e1d14ddbf2084683e96a08ea4686da05d91b958c0cbac87684"
+      ],
+      "URL": [
+        "https://code.videolan.org/videolan/dav1d"
+      ],
+      "LICENSE": [
+        "spdx:BSD-2-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1784280222"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/29565693005/job/87837690907)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-nasm",
+        "mingw-w64-x86_64-xxhash"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libx264": {
+    "files": [
+      "mingw64/bin/libx264-165.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libx264-0.165.r3222.b35605a-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libx264"
+      ],
+      "BASE": [
+        "mingw-w64-x264"
+      ],
+      "VERSION": [
+        "0.165.r3222.b35605a-3"
+      ],
+      "DESC": [
+        "Library for encoding H264/AVC video streams (mingw-w64)"
+      ],
+      "CSIZE": [
+        "821873"
+      ],
+      "ISIZE": [
+        "5105121"
+      ],
+      "SHA256SUM": [
+        "d034c2a4bc8966b8301d48bde2b9d251057683717c17a03dbc402d160cc0e726"
+      ],
+      "URL": [
+        "https://www.videolan.org/developers/x264.html"
+      ],
+      "LICENSE": [
+        "custom"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1786311857"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/31336315352/job/93302650404)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-ffmpeg",
+        "mingw-w64-x86_64-l-smash",
+        "mingw-w64-x86_64-ffms2",
+        "mingw-w64-x86_64-nasm",
+        "git"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-rav1e": {
+    "files": [
+      "mingw64/bin/librav1e.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-rav1e-0.8.1-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-rav1e"
+      ],
+      "BASE": [
+        "mingw-w64-rav1e"
+      ],
+      "VERSION": [
+        "0.8.1-1"
+      ],
+      "DESC": [
+        "An AV1 encoder focused on speed and safety (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2454991"
+      ],
+      "ISIZE": [
+        "17445992"
+      ],
+      "SHA256SUM": [
+        "15b2f19460ec7a19f19fbad2861d00104545ccd371e4f861de4d068e25e7a1c7"
+      ],
+      "URL": [
+        "https://github.com/xiph/rav1e/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-2-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1750183847"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/c237bc16/15714861138)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-rust",
+        "mingw-w64-x86_64-cargo-c",
+        "mingw-w64-x86_64-llvm-tools",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-gst-libav": {
+    "files": [
+      "mingw64/lib/gstreamer-1.0/libgstlibav.dll"
+    ],
+    "package": {
+      "NAME": [
+        "mingw-w64-x86_64-gst-libav"
+      ],
+      "BASE": [
+        "mingw-w64-gst-libav"
+      ],
+      "VERSION": [
+        "1.28.8-1"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-glib2",
+        "mingw-w64-x86_64-gst-plugins-base",
+        "mingw-w64-x86_64-ffmpeg"
+      ],
+      "FILENAME": [
+        "mingw-w64-x86_64-gst-libav-1.28.8-1-any.pkg.tar.zst"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "SHA256SUM": [
+        "6286640fcbf52a42e896fba758eb72d0ef99ef70a3d3af7849c8389fcd5a3015"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-ffmpeg": {
+    "files": [
+      "mingw64/bin/avcodec-63.dll",
+      "mingw64/bin/avdevice-63.dll",
+      "mingw64/bin/avfilter-12.dll",
+      "mingw64/bin/avformat-63.dll",
+      "mingw64/bin/avutil-61.dll",
+      "mingw64/bin/ffmpeg.exe",
+      "mingw64/bin/ffprobe.exe",
+      "mingw64/bin/swresample-7.dll",
+      "mingw64/bin/swscale-10.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-ffmpeg-9.0.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-ffmpeg"
+      ],
+      "BASE": [
+        "mingw-w64-ffmpeg"
+      ],
+      "VERSION": [
+        "9.0.2-1"
+      ],
+      "DESC": [
+        "Complete solution to record, convert and stream audio and video (mingw-w64)"
+      ],
+      "CSIZE": [
+        "25287935"
+      ],
+      "ISIZE": [
+        "86189480"
+      ],
+      "SHA256SUM": [
+        "f3e3372306fcc043f3210d75bbe369c5d92bc956e4018bdc6cd1361f551f1863"
+      ],
+      "URL": [
+        "https://ffmpeg.org/"
+      ],
+      "LICENSE": [
+        "spdx:GPL-3.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790121652"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/35799977344/job/106987879956)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-aom",
+        "mingw-w64-x86_64-bzip2",
+        "mingw-w64-x86_64-dav1d",
+        "mingw-w64-x86_64-fontconfig",
+        "mingw-w64-x86_64-freetype",
+        "mingw-w64-x86_64-frei0r-plugins",
+        "mingw-w64-x86_64-fribidi",
+        "mingw-w64-x86_64-gmp",
+        "mingw-w64-x86_64-gnutls",
+        "mingw-w64-x86_64-gsm",
+        "mingw-w64-x86_64-harfbuzz",
+        "mingw-w64-x86_64-lame",
+        "mingw-w64-x86_64-libass",
+        "mingw-w64-x86_64-libbluray",
+        "mingw-w64-x86_64-libcaca",
+        "mingw-w64-x86_64-libexif",
+        "mingw-w64-x86_64-libgme",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-libjxl",
+        "mingw-w64-x86_64-libmodplug",
+        "mingw-w64-x86_64-libssh",
+        "mingw-w64-x86_64-libplacebo",
+        "mingw-w64-x86_64-librsvg",
+        "mingw-w64-x86_64-libsoxr",
+        "mingw-w64-x86_64-libtheora",
+        "mingw-w64-x86_64-libva",
+        "mingw-w64-x86_64-libvorbis",
+        "mingw-w64-x86_64-libvpx",
+        "mingw-w64-x86_64-libwebp",
+        "mingw-w64-x86_64-libxml2",
+        "mingw-w64-x86_64-libvpl",
+        "mingw-w64-x86_64-openal",
+        "mingw-w64-x86_64-opencore-amr",
+        "mingw-w64-x86_64-openjpeg2",
+        "mingw-w64-x86_64-opus",
+        "mingw-w64-x86_64-rav1e",
+        "mingw-w64-x86_64-rtmpdump",
+        "mingw-w64-x86_64-SDL2",
+        "mingw-w64-x86_64-speex",
+        "mingw-w64-x86_64-srt",
+        "mingw-w64-x86_64-svt-av1",
+        "mingw-w64-x86_64-liblc3",
+        "mingw-w64-x86_64-vid.stab",
+        "mingw-w64-x86_64-vulkan",
+        "mingw-w64-x86_64-ggml",
+        "mingw-w64-x86_64-whisper.cpp",
+        "mingw-w64-x86_64-libx264",
+        "mingw-w64-x86_64-x265",
+        "mingw-w64-x86_64-xvidcore",
+        "mingw-w64-x86_64-zimg",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-zvbi"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-dlfcn",
+        "mingw-w64-x86_64-vulkan-headers",
+        "mingw-w64-x86_64-amf-headers",
+        "mingw-w64-x86_64-ffnvcodec-headers",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libbluray": {
+    "files": [
+      "mingw64/bin/libbluray-4.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libbluray-1.5.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libbluray"
+      ],
+      "BASE": [
+        "mingw-w64-libbluray"
+      ],
+      "VERSION": [
+        "1.5.0-1"
+      ],
+      "DESC": [
+        "Library to access Blu-Ray disks for video playback (mingw-w64)"
+      ],
+      "CSIZE": [
+        "338606"
+      ],
+      "ISIZE": [
+        "1347487"
+      ],
+      "SHA256SUM": [
+        "044b58f3f6d9b3eea3649dde055576331b2e8a6baa59f36ad88b8fb733ddb8f9"
+      ],
+      "URL": [
+        "https://www.videolan.org/developers/libbluray.html"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1787512514"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/32660583180/job/97246031547)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-libxml2",
+        "mingw-w64-x86_64-freetype"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libjxl": {
+    "files": [
+      "mingw64/bin/libjxl.dll",
+      "mingw64/bin/libjxl_cms.dll",
+      "mingw64/bin/libjxl_threads.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libjxl-0.12.0-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libjxl"
+      ],
+      "BASE": [
+        "mingw-w64-libjxl"
+      ],
+      "VERSION": [
+        "0.12.0-2"
+      ],
+      "DESC": [
+        "JPEG XL image format reference implementation (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2655839"
+      ],
+      "ISIZE": [
+        "18247027"
+      ],
+      "SHA256SUM": [
+        "e49b875a5a4b208e7847b7a1473463d0a825bff0a28321d17478fd92c804361b"
+      ],
+      "URL": [
+        "https://jpeg.org/jpegxl/"
+      ],
+      "LICENSE": [
+        "spdx:BSD-3-Clause"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792043328"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38688064839/job/116267399425)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-brotli",
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-giflib",
+        "mingw-w64-x86_64-highway",
+        "mingw-w64-x86_64-lcms2",
+        "mingw-w64-x86_64-libjpeg-turbo",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libwinpthread",
+        "mingw-w64-x86_64-openexr"
+      ],
+      "OPTDEPENDS": [
+        "mingw-w64-x86_64-gdk-pixbuf2: for gdk-pixbuf loader"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-asciidoc",
+        "mingw-w64-x86_64-gdk-pixbuf2"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-highway": {
+    "files": [
+      "mingw64/bin/libhwy.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-highway-1.4.0-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-highway"
+      ],
+      "BASE": [
+        "mingw-w64-highway"
+      ],
+      "VERSION": [
+        "1.4.0-3"
+      ],
+      "DESC": [
+        "C++ library for SIMD (Single Instruction, Multiple Data) (mingw-w64)"
+      ],
+      "CSIZE": [
+        "1580595"
+      ],
+      "ISIZE": [
+        "20824446"
+      ],
+      "SHA256SUM": [
+        "f75b4c243dacfed39dc9ce4c841f97cc09508fc09a94bd2fb8742552885a0c58"
+      ],
+      "URL": [
+        "https://github.com/google/highway"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1778341535"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/25602569573/job/75158903358)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libssh": {
+    "files": [
+      "mingw64/bin/libssh.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libssh-0.12.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libssh"
+      ],
+      "BASE": [
+        "mingw-w64-libssh"
+      ],
+      "VERSION": [
+        "0.12.2-1"
+      ],
+      "DESC": [
+        "Library for accessing ssh client services through C libraries (mingw-w64)"
+      ],
+      "CSIZE": [
+        "424731"
+      ],
+      "ISIZE": [
+        "2061604"
+      ],
+      "SHA256SUM": [
+        "6ad2f503998fcbccc49d1203cc6d59afd420da592268460e46b191c362646503"
+      ],
+      "URL": [
+        "https://www.libssh.org/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1785491581"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/30617852716/job/91115131101)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-openssl",
+        "mingw-w64-x86_64-zlib",
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja"
+      ],
+      "CHECKDEPENDS": [
+        "mingw-w64-x86_64-cmocka"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libplacebo": {
+    "files": [
+      "mingw64/bin/libplacebo-360.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libplacebo-7.360.1-2-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libplacebo"
+      ],
+      "BASE": [
+        "mingw-w64-libplacebo"
+      ],
+      "VERSION": [
+        "7.360.1-2"
+      ],
+      "DESC": [
+        "Reusable library for GPU-accelerated video/image rendering primitives (mingw-w64)"
+      ],
+      "CSIZE": [
+        "761837"
+      ],
+      "ISIZE": [
+        "3868447"
+      ],
+      "SHA256SUM": [
+        "4a3e80c3ef2da2e948764f909c4dfabb2929a1b18fcc4b956c47cf3cf4dc2453"
+      ],
+      "URL": [
+        "https://code.videolan.org/videolan/libplacebo"
+      ],
+      "LICENSE": [
+        "LGPL2.1"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1784184733"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/29477141564/job/87552465909)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-lcms2",
+        "mingw-w64-x86_64-libdovi",
+        "mingw-w64-x86_64-shaderc",
+        "mingw-w64-x86_64-spirv-cross",
+        "mingw-w64-x86_64-vulkan"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-meson",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-python-glad",
+        "mingw-w64-x86_64-python-jinja",
+        "mingw-w64-x86_64-fast_float",
+        "mingw-w64-x86_64-xxhash",
+        "mingw-w64-x86_64-vulkan-headers"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libdovi": {
+    "files": [
+      "mingw64/bin/libdovi.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libdovi-3.4.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libdovi"
+      ],
+      "BASE": [
+        "mingw-w64-libdovi"
+      ],
+      "VERSION": [
+        "3.4.0-1"
+      ],
+      "DESC": [
+        "Library to read and write Dolby Vision metadata (C-API)"
+      ],
+      "CSIZE": [
+        "2093615"
+      ],
+      "ISIZE": [
+        "8903739"
+      ],
+      "SHA256SUM": [
+        "371c8c7474c15d99b011e193d0413788a5d52098a3aee258c3977b78c5dda056"
+      ],
+      "URL": [
+        "https://github.com/quietvoid/dovi_tool/tree/main/dolby_vision"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1784299679"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/29586969930/job/87906258813)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-rust",
+        "mingw-w64-x86_64-cargo-c"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-shaderc": {
+    "files": [
+      "mingw64/bin/libshaderc_shared.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-shaderc-2026.4-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-shaderc"
+      ],
+      "BASE": [
+        "mingw-w64-shaderc"
+      ],
+      "VERSION": [
+        "2026.4-1"
+      ],
+      "DESC": [
+        "Collection of tools, libraries and tests for shader compilation (mingw-w64)"
+      ],
+      "CSIZE": [
+        "3793652"
+      ],
+      "ISIZE": [
+        "21797800"
+      ],
+      "SHA256SUM": [
+        "8af380b68ba3cbb0abcd70eb17a1bb84fc7925915fd1a7a5d570cd1da8d0c2dc"
+      ],
+      "URL": [
+        "https://github.com/google/shaderc"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791132587"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/37217650416/job/111481344081)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-glslang",
+        "mingw-w64-x86_64-spirv-tools"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-spirv-headers",
+        "mingw-w64-x86_64-asciidoctor"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-spirv-cross": {
+    "files": [
+      "mingw64/bin/libspirv-cross-c-shared.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-spirv-cross-1~1.4.363.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-spirv-cross"
+      ],
+      "BASE": [
+        "mingw-w64-spirv-cross"
+      ],
+      "VERSION": [
+        "1~1.4.363.0-1"
+      ],
+      "DESC": [
+        "A tool and library for parsing and converting SPIR-V to other shader languages (mingw-w64)"
+      ],
+      "CSIZE": [
+        "2198483"
+      ],
+      "ISIZE": [
+        "17918763"
+      ],
+      "SHA256SUM": [
+        "191494c8a289c246985cad164d9526c315621b976229e547d8b22bccd11e53d5"
+      ],
+      "URL": [
+        "https://github.com/KhronosGroup/SPIRV-Cross/"
+      ],
+      "LICENSE": [
+        "spdx:Apache-2.0"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1790899505"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/36942632126/job/110637436189)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-glslang",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-spirv-headers",
+        "mingw-w64-x86_64-spirv-tools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libsoxr": {
+    "files": [
+      "mingw64/bin/libsoxr.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libsoxr-0.1.3-6-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libsoxr"
+      ],
+      "BASE": [
+        "mingw-w64-libsoxr"
+      ],
+      "VERSION": [
+        "0.1.3-6"
+      ],
+      "DESC": [
+        "The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio (mingw-w64)"
+      ],
+      "CSIZE": [
+        "193887"
+      ],
+      "ISIZE": [
+        "866589"
+      ],
+      "SHA256SUM": [
+        "7407907de26abc8edccaecd59269d8faad9e46db20d1e5f6e1b7bc9fac1ba9ee"
+      ],
+      "URL": [
+        "https://sourceforge.net/p/soxr/wiki/Home/"
+      ],
+      "LICENSE": [
+        "spdx:LGPL-2.1-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1791634358"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38050720304/job/114209121236)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-omp"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-pkgconf",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "git"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-libvpl": {
+    "files": [
+      "mingw64/bin/libvpl-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-libvpl-2.17.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-libvpl"
+      ],
+      "BASE": [
+        "mingw-w64-libvpl"
+      ],
+      "VERSION": [
+        "2.17.0-1"
+      ],
+      "DESC": [
+        "Intel Video Processing Library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "378912"
+      ],
+      "ISIZE": [
+        "2133308"
+      ],
+      "SHA256SUM": [
+        "3899c8e75e9b62cfff8b0987d70da3e2c142a075b94af45d868c3453d86aaece"
+      ],
+      "URL": [
+        "https://intel.github.io/libvpl"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1782641073"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/28318692770/job/83896565509)"
+      ],
+      "REPLACES": [
+        "mingw-w64-x86_64-onevpl"
+      ],
+      "CONFLICTS": [
+        "mingw-w64-x86_64-onevpl"
+      ],
+      "PROVIDES": [
+        "mingw-w64-x86_64-onevpl"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-cc"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-vid.stab": {
+    "files": [
+      "mingw64/bin/libvidstab.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-vid.stab-1.1.2-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-vid.stab"
+      ],
+      "BASE": [
+        "mingw-w64-vid.stab"
+      ],
+      "VERSION": [
+        "1.1.2-1"
+      ],
+      "DESC": [
+        "Video stabilization library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "106706"
+      ],
+      "ISIZE": [
+        "436551"
+      ],
+      "SHA256SUM": [
+        "e544dd061e37a12f466ed1b3040446155190406d306f7808bb0673dad3e0fd5a"
+      ],
+      "URL": [
+        "http://public.hronopik.de/vid.stab"
+      ],
+      "LICENSE": [
+        "spdx:GPL-2.0-or-later"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1788468141"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/33803387994/job/100807966354)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-omp"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-cc",
+        "git"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-ggml": {
+    "files": [
+      "mingw64/bin/ggml-0.dll",
+      "mingw64/bin/ggml-base-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-ggml-0.27.0-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-ggml"
+      ],
+      "BASE": [
+        "mingw-w64-ggml"
+      ],
+      "VERSION": [
+        "0.27.0-1"
+      ],
+      "DESC": [
+        "Tensor library for machine learning (mingw-w64)"
+      ],
+      "CSIZE": [
+        "7606689"
+      ],
+      "ISIZE": [
+        "62627161"
+      ],
+      "SHA256SUM": [
+        "a8c2cfc7dd33f6e1a81bac78ce9d5488e57555a101694684f6f57df927c79483"
+      ],
+      "URL": [
+        "https://github.com/ggml-org/ggml"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792103676"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38817903493/job/116707077248)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-openblas",
+        "mingw-w64-x86_64-omp",
+        "mingw-w64-x86_64-opencl-icd",
+        "mingw-w64-x86_64-python",
+        "mingw-w64-x86_64-vulkan-loader"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "mingw-w64-x86_64-opencl-headers",
+        "mingw-w64-x86_64-shaderc",
+        "mingw-w64-x86_64-vulkan-headers",
+        "mingw-w64-x86_64-spirv-headers"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-whisper.cpp": {
+    "files": [
+      "mingw64/bin/libwhisper-1.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-whisper.cpp-1~1.9.5.r2.g0c7be6963-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-whisper.cpp"
+      ],
+      "BASE": [
+        "mingw-w64-whisper.cpp"
+      ],
+      "VERSION": [
+        "1~1.9.5.r2.g0c7be6963-1"
+      ],
+      "DESC": [
+        "Port of OpenAI's Whisper model in C/C++ (mingw-w64)"
+      ],
+      "CSIZE": [
+        "1192911"
+      ],
+      "ISIZE": [
+        "7744832"
+      ],
+      "SHA256SUM": [
+        "ceda7910295268e0ce8d1f6f5c9c7094f7328303ce30b49e929d56cb466cb74b"
+      ],
+      "URL": [
+        "https://github.com/ggml-org/whisper.cpp"
+      ],
+      "LICENSE": [
+        "spdx:MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1792104783"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/38817903493/job/116707077248)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-ggml",
+        "mingw-w64-x86_64-llama.cpp",
+        "mingw-w64-x86_64-SDL2"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-cmake",
+        "mingw-w64-x86_64-ninja",
+        "git"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-xvidcore": {
+    "files": [
+      "mingw64/bin/xvidcore.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-xvidcore-1.3.7-5-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-xvidcore"
+      ],
+      "BASE": [
+        "mingw-w64-xvidcore"
+      ],
+      "VERSION": [
+        "1.3.7-5"
+      ],
+      "DESC": [
+        "XviD is an open source MPEG-4 video codec (mingw-w64)"
+      ],
+      "CSIZE": [
+        "333799"
+      ],
+      "ISIZE": [
+        "1863946"
+      ],
+      "SHA256SUM": [
+        "e1f9555a92a143f10b015e6f180c7de8a2e832e57b1bb5df950778984a2d4afe"
+      ],
+      "URL": [
+        "https://www.xvid.com/"
+      ],
+      "LICENSE": [
+        "GPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1753933490"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/ab3c2437/16639165313)"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-nasm"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-zimg": {
+    "files": [
+      "mingw64/bin/libzimg-2.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-zimg-3.0.6-3-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-zimg"
+      ],
+      "BASE": [
+        "mingw-w64-zimg"
+      ],
+      "VERSION": [
+        "3.0.6-3"
+      ],
+      "DESC": [
+        "Scaling, colorspace conversion, and dithering library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "361914"
+      ],
+      "ISIZE": [
+        "2249485"
+      ],
+      "SHA256SUM": [
+        "70d46458851c51b27faf4befe4c946d386836487156209541cc2dec4aade5fdc"
+      ],
+      "URL": [
+        "https://github.com/sekrit-twc/zimg"
+      ],
+      "LICENSE": [
+        "spdx:WTFPL"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1778329516"
+      ],
+      "PACKAGER": [
+        "CI (msys2/msys2-autobuild/actions/runs/25601037844/job/75154855915)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-cc-libs",
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-autotools"
+      ]
+    }
+  },
+  "mingw-w64-x86_64-zvbi": {
+    "files": [
+      "mingw64/bin/libzvbi-0.dll"
+    ],
+    "package": {
+      "FILENAME": [
+        "mingw-w64-x86_64-zvbi-0.2.45-1-any.pkg.tar.zst"
+      ],
+      "NAME": [
+        "mingw-w64-x86_64-zvbi"
+      ],
+      "BASE": [
+        "mingw-w64-zvbi"
+      ],
+      "VERSION": [
+        "0.2.45-1"
+      ],
+      "DESC": [
+        "VBI capture and decoding library (mingw-w64)"
+      ],
+      "CSIZE": [
+        "328541"
+      ],
+      "ISIZE": [
+        "1729376"
+      ],
+      "SHA256SUM": [
+        "2757fe0be47a7ec1e9db48b32fd3752eabdf22d753c1879864dfed33022eeffd"
+      ],
+      "URL": [
+        "http://zapping.sourceforge.net/cgi-bin/view/ZVBI/WebHome"
+      ],
+      "LICENSE": [
+        "spdx: GPL-2.0-or-later AND BSD-2-Clause AND LGPL-2.1-or-later AND MIT"
+      ],
+      "ARCH": [
+        "any"
+      ],
+      "BUILDDATE": [
+        "1788467968"
+      ],
+      "PACKAGER": [
+        "CI (https://github.com/msys2/msys2-autobuild/actions/runs/33803387994/job/100807966354)"
+      ],
+      "DEPENDS": [
+        "mingw-w64-x86_64-gettext-runtime",
+        "mingw-w64-x86_64-libiconv",
+        "mingw-w64-x86_64-libpng",
+        "mingw-w64-x86_64-libwinpthread"
+      ],
+      "MAKEDEPENDS": [
+        "git",
+        "mingw-w64-x86_64-autotools",
+        "mingw-w64-x86_64-cc",
+        "mingw-w64-x86_64-gettext-tools"
+      ]
+    }
+  }
+}
