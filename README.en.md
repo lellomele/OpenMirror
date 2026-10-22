@@ -6,6 +6,8 @@ Open source AirPlay receiver for **one device at a time**, for Windows 10/11 x64
 
 [Download the Alpha release](https://github.com/lellomele/OpenMirror/releases/tag/v0.2.0-alpha).
 
+**To use OpenMirror, download only [the Windows package](https://github.com/lellomele/OpenMirror/releases/download/v0.2.0-alpha/OpenMirror-0.2-AirPlay-windows-x64.zip). It already includes all required dependencies; the source archive is not needed to run the application.** `OpenMirror-0.2-AirPlay-source.zip` is provided to inspect or rebuild the complete dependency sources and to accompany redistribution of the binaries under their respective licenses.
+
 Extract all of `OpenMirror-0.2-AirPlay-windows-x64.zip` and run `OpenMirror.exe`, keeping the supplied folders beside it. .NET Framework 4.8 is required. Development certificates and Miracast components are not required.
 
 This edition includes AirPlay only. Connect the PC and your iPad, iPhone or Mac to the same LAN with communication between devices enabled. TCP ports 7100–7102 and mDNS UDP 5353 are used; allow private-network access when Windows asks.
